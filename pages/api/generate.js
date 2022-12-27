@@ -1,4 +1,5 @@
-import { Configuration, OpenAIApi } from "openai";
+import { Configuration } from "openai"; 
+import { OpenAIApi } from "openai";
 require("dotenv").config();
 
 const configuration = new Configuration({
